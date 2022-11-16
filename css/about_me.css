@@ -1,8 +1,3 @@
-.introduction {
-    font-size: 13pt;
-    margin: 20px 0px;
-    text-align: center;
-}
 .about-me {
     display: grid;
     background-color: #d9e247;
@@ -31,6 +26,7 @@
 }
 .about-me img {
     box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+    transition: 250ms;
 }
 .about-me img:hover, .about-me img:focus-visible {
     transform: scale(2);
