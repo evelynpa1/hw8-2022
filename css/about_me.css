@@ -32,7 +32,7 @@
 .about-me img {
     box-shadow: 0px 0px 10px rgba(0,0,0,.4);
 }
-.about-me img:hover, .about-me img:focus {
+.about-me img:hover, .about-me img:focus-visible {
     transform: scale(2);
 }
 .about-me div {
