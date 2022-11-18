@@ -91,13 +91,27 @@ a, a:visited {
 }
 main {
     margin: 20px;
+    min-height: calc(100vh - 413px - 20px - 40px - 56px);
+}
+body {
+    overflow-x: hidden;
 }
 .introduction {
     font-size: 13pt;
     margin: 20px 0px;
     text-align: center;
 }
+footer {
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #3F6211;
+    color: white;
+    text-align: center;
+}
 @media screen and (min-width:500px) {
+    main {
+        min-height: calc(100vh - 327px - 20px - 40px - 56px);
+    }
     nav ul li{
         border-top: 2px solid rgba(0,0,0,.05);
         border-right: 2px solid rgba(0,0,0,.1);
@@ -113,6 +127,9 @@ main {
     }
 }
 @media screen and (min-width:900px) {
+    main {
+        min-height: calc(100vh - 212px - 40px - 56px);
+    }
     nav {
         margin: 0px;
     }
