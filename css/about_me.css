@@ -166,3 +166,8 @@
         grid-area: 25 / 48 / span 6 / span 6;
     }
 }
+@media (prefers-reduced-motion) {
+    .about-me img {
+        transition: 0s;
+    }
+}

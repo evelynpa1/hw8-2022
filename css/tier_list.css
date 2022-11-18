@@ -1,10 +1,9 @@
-main {
-    margin: 40px;
-}
+
 #tier_list {
     background-color: #75b722;
     padding: 10px;
     border-radius: 10px;
+    margin: 0px 30px;
 }
 .tier{
     margin-bottom:10px;
@@ -100,5 +99,10 @@ main {
     }
     .letter {
         flex-basis: auto;
+    }
+}
+@media (prefers-reduced-motion) {
+    .img-wrapper {
+        transition: 0s;
     }
 }
